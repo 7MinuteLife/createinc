@@ -61,7 +61,7 @@ export default function Page() {
 
         {/* Main Heading */}
         <h1 className="text-[2.75rem] md:text-[3.5rem] lg:text-[4rem] leading-[1.1] font-bold text-center mb-8 text-gray-900 animate-fade-in delay-100 max-w-4xl mx-auto">
-          Unlock the power of AI<br className="hidden md:block" />in your applications.
+          Prioritize what you<br className="hidden md:block" />value most in life.
         </h1>
 
         {/* Subheading */}
