@@ -2,6 +2,131 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.delay-100 {
+  animation-delay: 100ms;
+}
+
+.delay-200 {
+  animation-delay: 200ms;
+}
+
+.delay-300 {
+  animation-delay: 300ms;
+}
+
+.delay-400 {
+  animation-delay: 400ms;
+}
+
+/* Custom styles for the demo card */
+.demo-card {
+  background: #F8F9FC;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+/* Feature cards */
+.feature-card {
+  background: #F8F9FC;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Blue banner style */
+.banner-blue {
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+/* Button styles */
+.button-invite {
+  background: #000000;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.button-invite:hover {
+  background: #1a1a1a;
+  transform: translateY(-1px);
+}
+
+/* Logo section */
+.logo-section img {
+  opacity: 0.4;
+  transition: opacity 0.2s ease;
+}
+
+.logo-section img:hover {
+  opacity: 0.6;
+}
+
+/* Navigation links */
+.nav-link {
+  color: #4B5563;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #111827;
+}
+
+/* Code block styling */
+.code-block {
+  font-family: 'Fira Code', monospace;
+  background: #F8F9FC;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+/* Responsive navigation */
+@media (max-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+  
+  .mobile-nav.open {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    padding: 2rem;
+    z-index: 50;
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

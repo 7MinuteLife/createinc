@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="32" viewBox="0 0 120 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M15 8L8 12V20L15 24L22 20V12L15 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M35 16H45M55 16H65M75 16H85" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <text x="95" y="20" font-family="Arial" font-size="14" fill="currentColor">LangChain</text>
+</svg> 
