@@ -106,9 +106,9 @@ export default function Page() {
               <div className="flex-1">
                 <div className="text-sm text-blue-500 font-medium mb-2">Example API Call</div>
                 <p className="text-gray-800 font-mono text-sm bg-gray-50 p-4 rounded">
-                  {'curl -X POST https://api.create.inc/v1/generate-image \\'}<br />
-                  {'-H "Authorization: Bearer $API_KEY" \\'}<br />
-                  {'-d \'{"prompt": "A futuristic city with flying cars"}\''}
+                  {`curl -X POST https://api.create.inc/v1/generate-image \\`}<br />
+                  {`-H "Authorization: Bearer $API_KEY" \\`}<br />
+                  {`-d '{"prompt": "A futuristic city with flying cars"}'`}
                 </p>
               </div>
               <div className="w-48 h-48 bg-gray-100 rounded-lg"></div>
